@@ -1,0 +1,73 @@
+sudo ap update
+sudo apt update
+passwd
+sudo apt update
+sudo /media/$USER/VBox_GAs_*/VBoxLinuxAdditions.run
+sudo reboot
+cat $HOME/.ssh/*.pub
+ssh-keygen
+cat $HOME/.ssh/*.pub
+ssh-keygen
+cat $HOME/.ssh/*.pub
+sudo apt update
+sudo apt install -y build-essential dkms linux-headers-$(uname -r)
+cat $HOME/.ssh/*.pub
+sudo apt install -y build-essential dkms linux-headers-$(uname -r)
+sudo apt autoremove
+sudo apt install -y build-essential dkms linux-headers-$(uname -r)
+sudo apt update && sudo apt install -y virtualbox-guest-utils virtualbox-guest-x11
+sudo reboot
+cat $HOME/.ssh/*.pub
+cd 
+mkdir repogit
+cd repogit
+git@github.com:santiagocalaza06/TP_AySO.git
+git clone git@github.com:santiagocalaza06/TP_AySO.git
+sudo apt install git
+git clone git@github.com:santiagocalaza06/TP_AySO.git
+cd TP AySO
+pwd
+ls -l
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+echo "usuario=$(whoami)"> datos.usuario.txt
+echo "usuario=$(whoami)"> datos_usuario.txt
+cat datos_usuario.txt
+git config --global user.email "santiago.calaza06@gmail.com"
+git config --global user.name "santiagocalaza06"
+git add .
+cd ~/repogit/TP_AySO 
+pwd
+git add .
+git commit -m "ADD: agregado primer ejercicio sobre datos_usuarios.txt"
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+git add datos_usuarios.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU" 
+cat <<EOF >> README.md
+Alumno: Santiago Calaza
+División: 311
+Turno: Noche
+EOF 
+
+
+
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push 
+
+cat <<EOF >> README.md
+Alumno: Santiago Calaza
+División: 311
+Turno: Noche
+EOF 
+cd
+
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push 
+cd ~/repogit/TP_AySO 
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push 
+history -a
